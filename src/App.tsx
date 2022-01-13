@@ -7,6 +7,7 @@ import GlobalStyles from './styles/global';
 import Header from './components/Header';
 import { CartProvider } from './hooks/useCart';
 
+//Arrow function dizendo que retorna um JSX.Element
 const App = (): JSX.Element => {
   return (
     <BrowserRouter>
